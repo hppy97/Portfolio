@@ -1,0 +1,170 @@
+body{
+  font-family:'ProximaNova';
+  color:#3a3a3a;
+  
+}
+.intro{
+  background-image:url(cloud.png)  no-repeat 
+  center center fixed; 
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:scroll;
+  
+ 
+
+-webkit-background-size:cover;
+-moz-background-size:contain;
+-o-background-size:contain;
+
+  animation:slideleft 20000s infinite linear;-webkit-animation:slideleft 20000s infinite linear;width:100%;
+  background-color:#41b0bf;
+  padding-bottom:70px;
+  
+  border-right:20px solid #fff;
+  border-left:20px solid #fff;
+  border-top:20px solid #fff;
+  padding-top:80px;
+}
+
+@media (max-width: 480px) {
+  .intro {
+      background-image: url(cloud.png);
+      background-size: cover;
+  }
+  .left-bird{
+    display: none;
+  }
+  .bg-img{
+    display: none;
+  }
+ 
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .intro {
+    background-image: url(cloud.png);
+    background-size: cover;
+    
+    height: 400px;
+    
+}
+
+section.intro h1 {
+  font-size:38px !important;
+}
+.header-area h2 span{
+  font-size:38px !important;
+}
+.header-area h2{
+  font-size:38px !important;
+
+}
+.left-bird{
+  display: none;
+}
+.bg-img{
+  display: none;
+}
+}
+@media (min-width: 1025px) {
+  .intro {
+    background-image: url(cloud.png);
+    background-size: contain;
+    
+}
+}
+
+@media only screen and (min-width:300px) and (max-width:320px) {
+  .intro {
+    width: 100%;
+    height: 100px;
+    
+    
+  }
+}
+@media only screen and (max-width:500px) {
+  section.intro h1 {
+    font-size:38px !important;
+  }
+  .header-area h2 span{
+    font-size:38px !important;
+  }
+  .header-area h2{
+    font-size:38px !important;
+
+  }
+}
+
+
+span.title {
+  font-family:'Sacramento',cursive !important;
+  text-transform:none;
+  font-weight:400;
+  color:#fff;
+  font-size:1.4em;
+  
+  
+}
+
+section.intro h1 {
+  text-align: center;
+  
+  margin-top:0px;
+  line-height:1.2;
+  font-family:'ProximaNovaT';
+  color:#3a3a3a;
+  font-size:65px;
+
+}
+section.intro span.design {
+  font-family:'ProximaNovaT';
+}
+section.intro span {
+  font-family:'ProximaNova';
+}
+
+
+
+.header-area h2{
+ 
+  text-align: center;
+  margin: 0;
+  padding: 0;
+ 
+  color:#f2f2f2;
+  font-size:40px;
+  vertical-align:middle;
+ font-family:sans-serif;
+ 
+}
+.header-area h2 span{
+  color:#fff;
+  font-weight: bold;
+  font-family: cursive;
+
+}
+
+.left-bird{
+  position: absolute;
+  top:2pc;
+  left:3pc;
+  
+  
+}
+
+.bg-img{
+  position: absolute;
+  top: 90px;
+  right:2pc;
+}
+.profile{
+  position:relative;
+  margin-top: 3pc;
+  
+  margin-bottom: -30px;
+  bottom: 90px;
+width:16%;
+  background-color:#41b0bf;
+  background:url(cloud.png) repeat-x top center;
+
+}
